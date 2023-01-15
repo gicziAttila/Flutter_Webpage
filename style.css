@@ -3,9 +3,7 @@ body {
     background-image: linear-gradient( to bottom right, black, white);
     background-repeat: no-repeat;
 }
-.kozep {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.rounded {
+    border-radius: 20px!important;
 }
