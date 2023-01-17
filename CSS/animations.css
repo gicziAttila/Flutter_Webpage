@@ -1,0 +1,11 @@
+.background{
+    border-color: chocolate;
+    animation: bordercolor 7s linear infinite;
+}
+@keyframes bordercolor{
+    0%{border-color: blueviolet}
+    30%{border-color: darkorange}
+    50%{border-color: red}
+    70%{border-color: deepskyblue}
+    100%{border-color: blueviolet}
+}

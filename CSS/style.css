@@ -1,0 +1,40 @@
+/*Első oldal*/
+body {
+    height: 100vh;
+    background-image: linear-gradient( to bottom right, black, white);
+    background-repeat: no-repeat;
+}
+
+.rounded {
+    border-radius: 20px!important;
+}
+
+
+
+
+
+
+/*Második oldal*/
+.hatter {
+    background-image: linear-gradient( to top right, yellow, cyan);
+    border: 3px solid linear-gradient( to top right, yellow, cyan);
+    border-radius: 10px;
+    height: 45vh;
+    width: 75vw;
+}
+.lista > li, h4, h1{
+    display: inline;
+}
+li {
+    list-style: none;
+}
+li > h1 {
+    border-left: 3px solid gray;
+    padding-left: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}  

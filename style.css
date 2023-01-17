@@ -1,9 +1,0 @@
-body {
-    height: 100vh;
-    background-image: linear-gradient( to bottom right, black, white);
-    background-repeat: no-repeat;
-}
-
-.rounded {
-    border-radius: 20px!important;
-}
