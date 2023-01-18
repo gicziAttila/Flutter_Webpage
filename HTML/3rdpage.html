@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/animations.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Flutter</title>
 </head>
 <body>
@@ -41,27 +48,68 @@
         </div>
       </nav>
         <div class="container h-75">
-            <h1 class="text-white d-flex justify-content-center mt-2 mb-4">Flutter applikációk a mindennapi használatban</h1>
-            <table class="table w-50">
+            <h1 class="text-white d-flex justify-content-center mt-2 mb-4 tracking-in-expand">Flutter applikációk a mindennapi használatban</h1>
+            <div class="d-flex justify-content-center p-5">
+            <table class="table table-borderless w-50">
+              <thead>
+                <tr>
+                    <th>
+                        <a href="https://flutter.dev/showcase/bmw" target="_blank"><img class="rounded zoom" style="width: 250px; height: auto;" src="https://storage.googleapis.com/cms-storage-bucket/images/case_study_part_1_BMW.width-635.png"></a>
+                    </th>
+                    <th><a href="https://flutter.dev/showcase/google-pay" target="_blank"><img class="rounded zoom" style="width: 250px; height: auto;" src="https://storage.googleapis.com/cms-storage-bucket/images/case_study_part_1_Google_Pay_1.width-635.png"></a></th>
+                    <th><a href="https://flutter.dev/showcase/ebay" target="_blank"><img class="rounded zoom" style="width: 250px; height: auto;" src="https://storage.googleapis.com/cms-storage-bucket/images/case_study_part_1_eBay.width-635.png"></a></th>
+                </tr>
+              </thead>
               <tbody>
-                <tr>
-                  <td><img class="rounded" style="width: 150px; height: 150px;" src="https://storage.googleapis.com/cms-storage-bucket/images/case_study_part_1_BMW.width-635.png"></td>
-                  <td>BMW</td>
-                  <td>Ügyfélközpontú termékfejlesztés a BMW Csoportnál a Flutter segítségével</td>
+                <tr class="text-white p-5">
+                    <td>
+                      <h1 class="d-flex justify-content-center">BMW</h1>
+                    </td>
+                  <td>
+                    <h1 class="d-flex justify-content-center">Google Pay</h1>
+                  </td>
+                  <td>
+                    <div>
+                      <h1 class="d-flex justify-content-center">Ebay</h1>
+                    </div>
+                  </td>
                 </tr>
-                <tr>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <td colspan="2">Larry the Bird</td>
-                  <td>@twitter</td>
+                <tr class="text-white">
+                  <td>Ügyfélközpontú termékfejlesztés a BMW-nél a Flutter segítségével</td>
+                  <td id="googlePay">A Google Pay világméretűvé válása a Flutterrel</td>
+                  <td class="ebay-text">A híres adok-veszek alkalmazás, az Ebay is a Flutter-rel készült</td>
                 </tr>
               </tbody>
             </table>
-                  </div>
-            </div>
-      </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <table class="table table-borderless w-50">
+              <thead>
+                <tr>
+                    <th>
+                        <a href="https://flutter.dev/showcase/bmw" target="_blank"><img class="rounded zoom" style="width: 250px; height: auto;" src="https://storage.googleapis.com/cms-storage-bucket/images/case_study_part_1_Dream_11.width-635.png"></a>
+                    </th>
+                    <th><a href="https://flutter.dev/showcase/google-pay" target="_blank"><img class="rounded zoom" style="width: 250px; height: auto;" src="https://storage.googleapis.com/cms-storage-bucket/images/case_study_part_1_Nubank.width-635.png"></a></th>
+                    <th><a href="https://flutter.dev/showcase/ebay" target="_blank"><img class="rounded zoom" style="width: 250px; height: auto;" src="https://storage.googleapis.com/cms-storage-bucket/images/case_study_part_1_Push.width-635.png"></a></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="text-white p-5">
+                    <td>
+                      <h1 class="d-flex justify-content-center">Dream11</h1>
+                    </td>
+                  <td>
+                    <h1 class="d-flex justify-content-center">Nubank</h1>
+                  </td>
+                  <td>
+                    <div>
+                      <h1 class="d-flex justify-content-center">Push</h1>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 </body>
 </html>
