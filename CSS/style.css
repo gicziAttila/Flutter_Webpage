@@ -1,40 +1,15 @@
-/*Első oldal*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+h1,h2,h3,h4,h5,h6,p {font-weight: normal;}
+
 body {
     height: 100vh;
-    background-image: linear-gradient( to bottom right, black, white);
+    /*background-image: linear-gradient( to bottom right, black, white);*/
+    background: radial-gradient(ellipse at bottom,#1a68d3 5%,transparent 60%),linear-gradient(136deg,transparent,#71c7ee 290%),linear-gradient(115deg,#9d9af1,transparent 40%),linear-gradient(180deg,transparent 0,#1a68d3 70%),radial-gradient(ellipse at -70% -180%,transparent 80%,#71c7ee 0),radial-gradient(ellipse at bottom,#1a68d3 40%,transparent 80%),radial-gradient(ellipse at 5% 340%,transparent 80%,#bfc2f4 0);
     background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .rounded {
     border-radius: 20px!important;
 }
-
-
-
-
-
-
-/*Második oldal*/
-.hatter {
-    background-image: linear-gradient( to top right, yellow, cyan);
-    border: 3px solid linear-gradient( to top right, yellow, cyan);
-    border-radius: 10px;
-    height: 45vh;
-    width: 75vw;
-}
-.lista > li, h4, h1{
-    display: inline;
-}
-li {
-    list-style: none;
-}
-li > h1 {
-    border-left: 3px solid gray;
-    padding-left: 20px;
-}
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
-}  

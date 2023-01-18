@@ -1,0 +1,39 @@
+:root {
+    --color0: #white;
+}
+
+.hatter {
+    background-color: white;
+    border: 3px solid linear-gradient( to top right, var(--color0), var(--color1));
+    border-radius: 10px;
+    height: 45vh;
+    width: 75vw;
+}
+.lista > li, h4, h1{
+    display: inline;
+}
+li {
+    list-style: none;
+}
+li > h1 {
+    border-left: 3px solid gray;
+    padding-left: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    color: #000;
+}
+
+#doboz {
+    padding: 20px !important;
+}
+
+#doboz > div {
+    padding: 20px;
+}
+.bold-text {
+    font-weight: 600;
+}

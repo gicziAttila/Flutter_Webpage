@@ -4,8 +4,8 @@
 }
 @keyframes bordercolor{
     0%{border-color: blueviolet}
-    30%{border-color: darkorange}
-    50%{border-color: red}
-    70%{border-color: deepskyblue}
+    30%{border-color: red}
+    50%{border-color: orange}
+    70%{border-color: blue}
     100%{border-color: blueviolet}
 }
